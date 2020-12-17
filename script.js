@@ -105,7 +105,7 @@ const json = [
 ];
 
 document.addEventListener("DOMContentLoaded", function() {
-   fetch("https://galerie-lea.netlify.app/data.json")
+   fetch("https://boring-kepler-019a00.netlify.app/data.json")
    .then((response) => response.json())
    .then((json) => afficher(json));
 });
