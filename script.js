@@ -66,7 +66,7 @@ function afficher(json){
   document.querySelector(".container").innerHTML = html;
 }
 
-const json = [
+/*const json = [
 	{
 		"name": "Image 1",
 		"created_at": "2020-10-09T12:09:56Z",
@@ -102,7 +102,7 @@ const json = [
 		"created_at": "2018-10-08T10:58:58Z",
 		"updated_at": "2020-10-09T12:09:56Z"
 	}
-];
+];*/
 
 document.addEventListener("DOMContentLoaded", function() {
    fetch("https://boring-kepler-019a00.netlify.app/data.json")
