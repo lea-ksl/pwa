@@ -2,23 +2,23 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Github Client</title>
-    <link rel="manifest" href="manifest.webmanifest" />
-    <script
-      async
-      src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.9/pwacompat.min.js"
-      integrity="sha384-VcI6S+HIsE80FVM1jgbd6WDFhzKYA0PecD/LcIyMQpT4fMJdijBh0I7Iblaacawc"
-      crossorigin="anonymous"
-    ></script>
-
+    <title>Galerie</title>
+    
     <link
       href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.css"
       rel="stylesheet"
     />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <script async src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.9/pwacompat.min.js" integrity="sha384-VcI6S+HIsE80FVM1jgbd6WDFhzKYA0PecD/LcIyMQpT4fMJdijBh0I7Iblaacawc" crossorigin="anonymous" ></script>
     <script src="./script.js"></script>
+    <script> 
+      if ('serviceWorker' in navigator) { navigator.serviceWorker .register("sw.js") .then((reg) => { console.log("service worker installed!"); }) .catch((error) => { console.error(error);
+      }); } else { console.warn("service worker not installed"); }
+       </script>
   </head>
+  
   <body>
-    <h1 class="title">Github Client</h1>
+    <h1 class="title">Galerie</h1>
     <div class="container"></div>
   </body>
 </html>
