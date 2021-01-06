@@ -9,7 +9,7 @@
         }, 
         { 
             "src": "images/icons/96.png", 
-            "sizes": "96x96"
+            "sizes": "512x512"
     }],
     "display": "fullscreen",
     "orientation": "landscape",
