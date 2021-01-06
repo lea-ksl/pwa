@@ -1,18 +1,19 @@
-{ 
+{
+    "lang": "fr",
     "name": "Galerie PWA",
+    "description": "this app helps you to have images",
     "short_name": "Galerie",
-    "start_url": "/",
-    "description" : "this app helps you to have images",
-    "display": "standalone",
-    "orientation": "landscape",
-    "icons": [ 
-        { 
+    "icons": [{
             "src": "images/icons/72.png", 
             "sizes": "72x72"
         }, 
         { 
             "src": "images/icons/96.png", 
             "sizes": "96x96"
-        }
-    ] 
-}
+    }],
+    "start_url": "/",
+    "display": "fullscreen",
+    "orientation": "landscape",
+    "theme_color": "aliceblue",
+    "background_color": "red"
+  }
